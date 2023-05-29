@@ -8,6 +8,7 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
   />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="./index.css">
   <title>Business Ambassadors</title>
 </head>
@@ -74,7 +75,7 @@
       </div>
       <div class="container">
         <div class="greeting__description">
-          <div class="greeting__title">
+          <div data-aos="fade-left" data-aos-delay="100" class="greeting__title">
             <div class="greeting__title--yellow">
               <h1>
                 Business Ambassadors
@@ -86,12 +87,12 @@
               </h1>
             </div>
           </div>
-          <p>
+          <p data-aos="fade-right" data-aos-delay="100">
             Business leaders working together to promote the Ukraine’s trust and reputation internationally,
             including trade and investment opportunities for Ukraine businesses and working to help secure
             investment to the Ukraine.
           </p>
-          <a href="/">Get presentation</a>
+          <a data-aos="fade-right" data-aos-delay="100" href="/">Get presentation</a>
         </div>
         <a class="greeting__button" href="#team">
           <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -103,10 +104,10 @@
     </section>
     <section id="team" class="section section--team">
       <div class="container">
-        <h2 class="title">
+        <h2 data-aos="fade-left" class="title">
           Ambassadors <span>Team</span>
         </h2>
-        <div class="team__cards hidden">
+        <div data-aos="fade-right" data-aos-delay="100" class="team__cards hidden">
           <div class="team__card">
             <div class="team__card-photo">
               <img src="./images/team-member.jpg" alt="Team Member">
@@ -369,10 +370,10 @@
           </div>
         </div>
         <div class="team__buttons">
-          <button class="view-more">
+          <button data-aos="fade-right" data-aos-delay="100" class="view-more">
             View more
           </button>
-          <button class="how-to-get">
+          <button data-aos="fade-left" data-aos-delay="200" class="how-to-get">
             How to get on the <strong>team</strong>?
           </button>
         </div>
@@ -456,12 +457,12 @@
       </div>
     </section>
     <section id="plan" class="section section--timeline">
-      <div class="timeline__line"></div>
+      <div data-aos="fade-left" class="timeline__line"></div>
       <div class="container">
-        <h2 class="title">
+        <h2 data-aos="fade-left" class="title">
           Timeline
         </h2>
-        <div class="timeline__years">
+        <div data-aos="fade-left" class="timeline__years">
           <button id="2017" onclick="scrollToParagraph(2017)" class="timeline__year timeline__year--2017 active">
             <p>
               <strong>
@@ -503,8 +504,8 @@
             <div></div>
           </button>
         </div>
-        <div class="timeline__triangle"></div>
-        <div class="timeline__content">
+        <div data-aos="fade-left" class="timeline__triangle"></div>
+        <div data-aos="fade-right" class="timeline__content">
           <div id="2017-content" class="timeline__paragraph">
             <div class="timeline__video-wrapper">
               <iframe
@@ -640,11 +641,11 @@
     </section>
     <section id="articles" class="section section--articles">
       <div class="container">
-        <h2 class="title title--articles">
+        <h2 data-aos="fade-left" class="title title--articles">
           Articles and News
         </h2>
         <div class="articles__wrapper">
-          <div class="articles__card">
+          <div data-aos="fade-right" data-aos-delay="500" class="articles__card">
             <div class="articles__card-photo">
               <img src="./images/articles__photo.jpg" alt="Aticles photo">
             </div>
@@ -663,7 +664,7 @@
               </p>
             </div>
           </div>
-          <div class="articles__card">
+          <div data-aos="fade-right" data-aos-delay="300" class="articles__card">
             <div class="articles__card-photo">
               <img src="./images/articles__photo.jpg" alt="Aticles photo">
             </div>
@@ -680,7 +681,7 @@
               </p>
             </div>
           </div>
-          <div class="articles__card">
+          <div data-aos="fade-right" data-aos-delay="100" class="articles__card">
             <div class="articles__card-photo">
               <img src="./images/articles__photo.jpg" alt="Aticles photo">
             </div>
@@ -696,19 +697,19 @@
             </div>
           </div>
         </div>
-        <a href="/">View All Articles</a>
+        <a data-aos="fade-left" href="/">View All Articles</a>
       </div>
     </section>
     <section id="contacts" class="section--contacts">
       <div class="container section">
-        <h2 class="title">
+        <h2 data-aos="fade-left" class="title">
           Contact
         </h2>
         <div class="contacts__content">
-          <div class="contacts__photo">
+          <div data-aos="fade-right" class="contacts__photo">
             <img src="./images/contacts-photo.jpg" alt="Contact photo">
           </div>
-          <div class="contacts__info">
+          <div data-aos="zoom-in" class="contacts__info">
             <div class="contacts__row">
               <h4>
                 <strong>
@@ -741,6 +742,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./index.js"></script>
 </body>
 </html>

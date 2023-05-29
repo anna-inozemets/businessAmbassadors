@@ -4,6 +4,7 @@ new Swiper('.projects__container', {
     enabled: true,
     onlyInViewport: true,
   },
+  slidesPerView: 3,
   loop: true,
   autoplay: {
     delay: 3000,
@@ -26,6 +27,10 @@ new Swiper('.projects__container', {
     
   }
 });
+
+AOS.init({
+  duration: 1000,
+})
 
 document.body.style.height = `${(window.innerHeight - 45)}px`;
 
