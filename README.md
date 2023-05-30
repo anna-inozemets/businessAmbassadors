@@ -1,7 +1,7 @@
 # businessAmbassadors
 Business Ambassadors of Ukraine
 
-#Technologies
+# Technologies
 - HTML
 - CSS
 - JS
