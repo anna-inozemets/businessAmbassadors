@@ -92,7 +92,6 @@ ul {
 
 /*#region generalStyles*/
 html {
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -111,7 +110,6 @@ img {
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: var(--white-color);
 }
 
 .container {
@@ -183,7 +181,7 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
   color: var(--white-color);
-  transition: color 0.4s;
+  transition: all 0.4s;
 }
 .nav__list li a:hover {
   color: var(--accent-yellow-color);
@@ -248,7 +246,7 @@ img {
 }
 .greeting__button svg {
   fill: var(--white-color);
-  transition: fill 0.2s;
+  transition: all 0.2s;
 }
 .greeting__button:hover svg {
   fill: var(--accent-yellow-color);
@@ -265,7 +263,7 @@ img {
   margin-bottom: 35px;
   overflow: hidden;
   max-height: 465px;
-  transition: max-height 0.4s;
+  transition: all 0.4s;
 }
 
 .team__card {
@@ -314,7 +312,7 @@ img {
 .team__buttons button.view-more {
   width: 175px;
   margin: 0 auto;
-  transform: translateX(50%);
+  transform: translate(45%, 0) !important;
   color: var(--white-color);
   background-color: var(--accent-blue-color);
 }
@@ -359,7 +357,7 @@ img {
 }
 .projects__slide img,
 .projects__slide p {
-  transition: transform 0.4s;
+  transition: all 0.4s;
 }
 .projects__slide p:first-of-type {
   font-size: 14px;
@@ -426,7 +424,7 @@ img {
   border-right: 10px solid transparent;
   border-bottom: 20px solid #E4E4E4;
   left: 40px;
-  transition: left 0.4s ease;
+  transition: all 0.4s ease;
 }
 .timeline__paragraph {
   display: flex;
@@ -557,7 +555,7 @@ img {
   position: relative;
   display: block;
   font-weight: 600;
-  transition: color 0.4s;
+  transition: all 0.4s;
 }
 .contacts__row a:hover {
   text-decoration: none;
@@ -808,7 +806,7 @@ img {
   }
   .team__buttons button.view-more {
     margin: 0;
-    transform: translateX(0);
+    transform: translate(0, 0) !important;
   }
   /*#endregion team*/
 
@@ -917,7 +915,7 @@ img {
     padding-bottom: 20px;
   }
   .title {
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 35px;
   }
   /*#endregion generalStyles*/

@@ -32,7 +32,7 @@ AOS.init({
   duration: 1000,
 })
 
-document.body.style.height = `${(window.innerHeight - 45)}px`;
+document.body.style.height = `${(document.body.offsetHeight - 45)}px`;
 
 const moreBtn = document.querySelector('.view-more');
 
